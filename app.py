@@ -18,3 +18,5 @@ for step in range(5):
 
     # pretty print last ouput tokens from bot
     print("DialoGPT: {}".format(tokenizer.decode(chat_history_ids[:, bot_input_ids.shape[-1]:][0], skip_special_tokens=True)))
+
+print("do something")
